@@ -8,6 +8,11 @@
   --second-background: #f5f4fa;
   --footer-background: #2f303a;
 }
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
 a { 
   text-decoration: none;
 }
