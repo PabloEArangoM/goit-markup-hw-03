@@ -8,11 +8,6 @@
   --second-background: #f5f4fa;
   --footer-background: #2f303a;
 }
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 a { 
   text-decoration: none;
 }
@@ -110,7 +105,7 @@ footer {
 li {
   list-style-type: none;
 }
-.titulo-imagen {
+.titulo-tarjetas {
   font-family: "Roboto", sans-serif;
   font-style: bold;
   font-size: 18px;
@@ -204,12 +199,12 @@ font-family: "Roboto", sans-serif;
 .nuestro-equipo{
   background-color: var(--second-background);
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .container{
   margin: 0 auto;
   width: 1200px;
-}
-header {
-  border-bottom: 1px solid #ececec;
-  height: 80px;
-  width: 1600px;
 }
