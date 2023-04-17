@@ -39,6 +39,10 @@ a:focus{
 }
 .solicite-nuestro-servicio {
   background-color: #2f303a;
+  height: 600px;
+  width: 1600;
+  top: 80px;
+  left: -4px;
 }
 h1 {
   color: var(--primary-white-color);
@@ -60,6 +64,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.06em;
   font-weight: 500;
+  border: 0;
 }
 a:hover {
   color: var(--accent-color);
@@ -202,4 +207,10 @@ font-family: "Roboto", sans-serif;
 .container{
   margin: 0 auto;
   width: 1200px;
+  padding: 0 15px;
+}
+header {
+  border-bottom: 1px solid #ececec;
+  height: 80px;
+  width: 1600px;
 }
