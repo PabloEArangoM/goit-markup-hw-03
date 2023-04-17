@@ -207,7 +207,6 @@ font-family: "Roboto", sans-serif;
 .container{
   margin: 0 auto;
   width: 1200px;
-  padding: 0 15px;
 }
 header {
   border-bottom: 1px solid #ececec;
