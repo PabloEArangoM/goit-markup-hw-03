@@ -32,13 +32,6 @@ a:focus{
   vertical-align: top;
   letter-spacing: 0.03em;
 }
-.solicite-nuestro-servicio {
-  background-color: #2f303a;
-  height: 600px;
-  width: 1600;
-  top: 80px;
-  left: -4px;
-}
 h1 {
   color: var(--primary-white-color);
   font-family: "Roboto", sans-serif;
@@ -205,9 +198,9 @@ font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 .container{
-  margin: auto;
+  margin: 0 auto;
   width: 1200px;
-  padding: 0;
+  padding: 0 15px;
 }
 .nav{
   display: flex;
@@ -223,6 +216,7 @@ font-family: "Roboto", sans-serif;
 }
 .header{
   height: 80px;
+  width: auto;
 }
 .header-lista-contactos{
   display: flex;
@@ -240,4 +234,103 @@ font-family: "Roboto", sans-serif;
 .numero-telefonico-header{
   display: block;
   padding: 32px 0;
+}
+.solicite-nuestro-servicio {
+  background-color: #2f303a;
+  padding: 200px 0;
+  text-align: center;
+}
+.soluciones-efectivas-para-su-negocio{
+  max-width: 696px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.boton{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.lista-section{
+  display: flex;
+  margin-right: 30px;
+}
+.section-informacion{
+  padding-top: 94px;
+}
+.material{
+  width: 270px;
+}
+.lista-section .material:not(:last-child){
+  margin-right: 50px; 
+}
+.titulo-section{
+  margin-bottom: 10px;
+}
+.a-que-nos-dedicamos{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.titulo-imagenes{
+  margin-bottom: 50px; 
+}
+.lista-imagenes{
+  display: flex;
+  width: 270px;
+  margin-right: 30px;
+
+}
+.lista-imagenes,
+.imagen,
+.lista-equipo:not(:last-child){
+  margin-right: 30px; 
+}
+.titulo-nuestro-equipo{
+  margin-bottom: 50px;
+  padding-top: 94px;
+}
+.lista-equipo{
+  display: flex;
+  width: 270px;
+  margin-right: 30px;
+  padding-bottom: 94px;
+}
+.tarjeta-equipo{
+  background-color: var(--primary-white-color);
+}
+.tarjeta-equipo:not(:last-child){
+  margin-right: 30px; 
+}
+.equipo-tarjeta{
+  padding: 30px 0;
+}
+.integrantes{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.profecion{
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-lista:not(:last-child){
+  margin-bottom: 9px;
+}
+.footer-contactos:not(:last-child){
+  margin-right: 30px;
+  margin-bottom: 9px;
+}
+.footer-contactos{
+  width: 270px;
+}
+.futer{
+  display: inline-block;
+  margin-bottom: 20px;
 }
