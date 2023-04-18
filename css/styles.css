@@ -198,7 +198,7 @@ font-family: "Roboto", sans-serif;
   box-sizing: border-box;
 }
 .container{
-  margin: 0 auto;
+  margin: auto;
   width: 1200px;
   padding: 0 15px;
 }
@@ -233,11 +233,11 @@ font-family: "Roboto", sans-serif;
 .correo-header,
 .numero-telefonico-header{
   display: block;
-  padding: 32px 0;
+  padding: 32px;
 }
 .solicite-nuestro-servicio {
   background-color: #2f303a;
-  padding: 200px 0;
+  padding: 200px;
   text-align: center;
 }
 .soluciones-efectivas-para-su-negocio{
@@ -304,7 +304,7 @@ font-family: "Roboto", sans-serif;
   margin-right: 30px; 
 }
 .equipo-tarjeta{
-  padding: 30px 0;
+  padding: 30px;
 }
 .integrantes{
   margin-bottom: 10px;
@@ -333,4 +333,56 @@ font-family: "Roboto", sans-serif;
 .futer{
   display: inline-block;
   margin-bottom: 20px;
+}
+.portafolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.lista-botones{
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.lista-botones,
+.lista-tarjetas{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap
+}
+.botones-lista-portafolio:not(:last-child){
+  margin-right: 8px;
+}
+.botones-portafolio{
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 4px;
+}
+.botones-portafolio,
+.boton2{
+  padding: 6px 22px;
+}
+.tarjetas-portafolio{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.tarjetas-portafolio:nth-child(3n){
+  margin-right: 0;
+}
+.tarjetas-portafolio:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+.tarjetas-descripcion{
+  padding: 20px 24px;
+}
+.titulo-tarjetas{
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.texto-tarjetas{
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
