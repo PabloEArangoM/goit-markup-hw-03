@@ -276,14 +276,11 @@ font-family: "Roboto", sans-serif;
 }
 .lista-imagenes{
   display: flex;
-  width: 270px;
-  padding-right: 30px;
-
+  flex-wrap: wrap;
+  gap: 23px;
 }
-.lista-imagenes,
-.imagen,
-.lista-equipo:not(:last-child){
-  margin-right: 30px; 
+.imagen{
+  flex-basis: calc((100% - 46px) / 3);
 }
 .titulo-nuestro-equipo{
   padding-bottom: 50px;
@@ -291,15 +288,13 @@ font-family: "Roboto", sans-serif;
 }
 .lista-equipo{
   display: flex;
-  width: 270px;
-  padding-right: 30px;
   padding-bottom: 94px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .tarjeta-equipo{
   background-color: var(--primary-white-color);
-}
-.tarjeta-equipo:not(:last-child){
-  margin-right: 30px; 
+  flex-basis: calc((100% - 90px)/ 4);
 }
 .equipo-tarjeta{
   padding: 30px 0px;
