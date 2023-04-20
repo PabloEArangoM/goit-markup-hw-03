@@ -126,7 +126,7 @@ h2{
 h3{
   font-family: "Roboto", sans-serif;
   font-style: bold;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 2;
   text-align: left;
   vertical-align: top;
@@ -209,21 +209,21 @@ font-family: "Roboto", sans-serif;
 .header-lista-links{
   display: flex;
   align-items: center;
-  margin-left: 93px;
+  padding-left: 93px;
 }
 .header-links{
-  margin-left: 50px;
+  padding-left: 50px;
 }
 .header{
-  height: 80px;
   width: auto;
+  border-bottom: 1px solid #ECECEC;
 }
 .header-lista-contactos{
   display: flex;
   margin-left: auto;
 }
 .header-contactos{
-  margin-left: 40px;
+  padding-left: 50px;
 }
 .links{
   display: block;
@@ -233,17 +233,17 @@ font-family: "Roboto", sans-serif;
 .correo-header,
 .numero-telefonico-header{
   display: block;
-  padding: 32px;
+  padding: 32px 0px;
 }
 .solicite-nuestro-servicio {
   background-color: #2f303a;
-  padding: 200px;
+  padding: 200px 0px;
   text-align: center;
 }
 .soluciones-efectivas-para-su-negocio{
   max-width: 696px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  padding-top: 0;
+  padding-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -255,31 +255,29 @@ font-family: "Roboto", sans-serif;
 }
 .lista-section{
   display: flex;
-  margin-right: 30px;
+  gap: 30px;
+}
+.material{
+  flex-basis: calc((100% - 90px) / 4);
 }
 .section-informacion{
   padding-top: 94px;
 }
-.material{
-  width: 270px;
-}
-.lista-section .material:not(:last-child){
-  margin-right: 50px; 
-}
 .titulo-section{
-  margin-bottom: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
 }
 .a-que-nos-dedicamos{
   padding-top: 94px;
   padding-bottom: 94px;
 }
 .titulo-imagenes{
-  margin-bottom: 50px; 
+  padding-bottom: 50px; 
 }
 .lista-imagenes{
   display: flex;
   width: 270px;
-  margin-right: 30px;
+  padding-right: 30px;
 
 }
 .lista-imagenes,
@@ -288,13 +286,13 @@ font-family: "Roboto", sans-serif;
   margin-right: 30px; 
 }
 .titulo-nuestro-equipo{
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   padding-top: 94px;
 }
 .lista-equipo{
   display: flex;
   width: 270px;
-  margin-right: 30px;
+  padding-right: 30px;
   padding-bottom: 94px;
 }
 .tarjeta-equipo{
@@ -304,10 +302,10 @@ font-family: "Roboto", sans-serif;
   margin-right: 30px; 
 }
 .equipo-tarjeta{
-  padding: 30px;
+  padding: 30px 0px;
 }
 .integrantes{
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   text-align: center;
 }
 .profecion{
@@ -321,18 +319,18 @@ font-family: "Roboto", sans-serif;
   padding-bottom: 60px;
 }
 .footer-lista:not(:last-child){
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 .footer-contactos:not(:last-child){
-  margin-right: 30px;
-  margin-bottom: 9px;
+  padding-right: 30px;
+  padding-bottom: 9px;
 }
 .footer-contactos{
   width: 270px;
 }
 .futer{
   display: inline-block;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 .portafolio{
   padding-top: 94px;
@@ -340,7 +338,7 @@ font-family: "Roboto", sans-serif;
 }
 .lista-botones{
   justify-content: center;
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 .lista-botones,
 .lista-tarjetas{
@@ -349,7 +347,7 @@ font-family: "Roboto", sans-serif;
   flex-wrap: wrap
 }
 .botones-lista-portafolio:not(:last-child){
-  margin-right: 8px;
+  padding-right: 8px;
 }
 .botones-portafolio{
   display: inline-block;
@@ -362,14 +360,14 @@ font-family: "Roboto", sans-serif;
   padding: 6px 22px;
 }
 .tarjetas-portafolio{
-  margin-right: 30px;
-  margin-bottom: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 .tarjetas-portafolio:nth-child(3n){
-  margin-right: 0;
+  padding-right: 0;
 }
 .tarjetas-portafolio:nth-last-child(-n + 3) {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .tarjetas-descripcion{
   padding: 20px 24px;
