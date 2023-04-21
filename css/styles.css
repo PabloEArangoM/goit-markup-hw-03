@@ -88,12 +88,15 @@ footer {
 }
 .direccion-mexico-footer {
   color: var(--primary-white-color);
+  font-style: normal;
 }
 .correo-footer {
   color: var(--primery-text-color);
+  font-style: normal;
 }
 .numero-telefonico-footer {
   color: var(--primery-text-color);
+  font-style: normal;
 }
 li {
   list-style-type: none;
@@ -332,17 +335,18 @@ font-family: "Roboto", sans-serif;
   padding-bottom: 94px;
 }
 .lista-botones{
+  list-style-type: none;
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
 }
-.lista-botones,
 .lista-tarjetas{
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap
-}
-.botones-lista-portafolio:not(:last-child){
-  padding-right: 8px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .botones-portafolio{
   display: inline-block;
@@ -355,8 +359,7 @@ font-family: "Roboto", sans-serif;
   padding: 6px 22px;
 }
 .tarjetas-portafolio{
-  padding-right: 30px;
-  padding-bottom: 30px;
+  flex-basis: calc((100% - 180px)/ 9);
 }
 .tarjetas-portafolio:nth-child(3n){
   padding-right: 0;
