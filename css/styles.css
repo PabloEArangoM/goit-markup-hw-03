@@ -369,6 +369,9 @@ font-family: "Roboto", sans-serif;
 }
 .tarjetas-descripcion{
   padding: 20px 24px;
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
 }
 .titulo-tarjetas{
   margin-bottom: 4px;
